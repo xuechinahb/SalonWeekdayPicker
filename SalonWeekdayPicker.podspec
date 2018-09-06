@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Maximelc' => 'xuechinahb@gmail.com' }
   s.source           = { :git => 'https://github.com/xuechinahb/SalonWeekdayPicker.git', :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/Maximelc'
+
 
   s.ios.deployment_target = '8.0'
 
