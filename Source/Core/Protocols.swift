@@ -42,6 +42,10 @@ extension WeekdayPicker: UIPickerViewDelegate {
         }
         return nil
     }
+    
+    public func pickerView(_ pickerView: UIPickerView, widthForComponent component: Int) -> CGFloat {
+        return 70
+    }
 }
 
 // MARK: - UIPickerViewDataSource

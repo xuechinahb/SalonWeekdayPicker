@@ -22,16 +22,16 @@ public final class WeekdayPicker: UIPickerView {
     public enum ComponentIndex: Int {
         
         /// Component weekday index 0
-        case weekday = 0
+        case weekday = 3
 
         /// Component day index 1
-        case day = 1
+        case day = 2
         
         /// Component month index 2
-        case month = 2
+        case month = 1
         
         /// Component year index 3
-        case year = 3
+        case year = 0
         
         /// Return the associated notification
         var notification: Notification.Name {
