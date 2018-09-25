@@ -54,7 +54,6 @@
 		4E6A1EA1205982BB006F6FAD /* Int+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Random.swift"; sourceTree = "<group>"; };
 		4EBD11022058B60100A9D53D /* WeekdayPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WeekdayPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EBD11052058B60100A9D53D /* WeekdayPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeekdayPicker.h; sourceTree = "<group>"; };
-		4EBD11062058B60100A9D53D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EBD110B2058B60100A9D53D /* WeekdayPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeekdayPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EBD11102058B60100A9D53D /* WeekdayPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayPickerTests.swift; sourceTree = "<group>"; };
 		4EBD11122058B60100A9D53D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -175,7 +174,6 @@
 		4EBD111C2058B71C00A9D53D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4EBD11062058B60100A9D53D /* Info.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
