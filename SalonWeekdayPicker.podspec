@@ -8,15 +8,14 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SalonWeekdayPicker'
-  s.version          = '0.2.0'
+  s.version          = '0.1.0'
   s.swift_version    = '4.2'
-  s.summary          = 'WeekdayPicker is a custom UIDatePicker with weekdays.'
+  s.summary          = 'SalonWeekdayPicker is a custom UIDatePicker with weekdays.'
   s.homepage         = 'https://github.com/xuechinahb/SalonWeekdayPicker'
-  s.screenshots	     = 'https://raw.githubusercontent.com/xuechinahb/SalonWeekdayPicker/master/Assets/DemoExample.png'
+  s.screenshots      = 'https://raw.githubusercontent.com/xuechinahb/SalonWeekdayPicker/master/Assets/DemoExample.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Maximelc' => 'xuechinahb@gmail.com' }
   s.source           = { :git => 'https://github.com/xuechinahb/SalonWeekdayPicker.git', :tag => s.version.to_s }
-
 
   s.ios.deployment_target = '8.0'
 
