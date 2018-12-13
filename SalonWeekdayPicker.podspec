@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SalonWeekdayPicker'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.swift_version    = '4.2'
   s.summary          = 'SalonWeekdayPicker is a custom UIDatePicker with weekdays.'
   s.homepage         = 'https://github.com/xuechinahb/SalonWeekdayPicker'

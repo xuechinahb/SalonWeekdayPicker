@@ -17,6 +17,10 @@ extension WeekdayPicker {
         self.delegated?.weekdayPickerDateChanged(date)
     }
     
+    public func setMinDate(_ date: Date){
+        setMinimumDate(date: date)
+    }
+    
     /// Reset desired or all component(s)
     public func resetComponent(component aComponent: ComponentIndex? = nil,
                                resetAll: Bool = false) {

@@ -62,6 +62,8 @@ public final class WeekdayPicker: UIPickerView {
     internal let notificationCenter: NotificationCenter = NotificationCenter.default
     internal var weekdayHistoryList: [String] = [String]() //tmp
     
+    internal var minDate: Date?
+    
     // MARK: - Life cycle
     /// Init function take frame
     public override init(frame: CGRect) {

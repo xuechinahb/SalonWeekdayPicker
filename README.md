@@ -1,8 +1,8 @@
 # WeekdayPicker
 
-[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/WeekdayPicker.svg)](https://img.shields.io/cocoapods/v/WeekdayPicker.svg)
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/SalonWeekdayPicker.svg)](https://img.shields.io/cocoapods/v/SalonWeekdayPicker.svg)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![Platform](https://img.shields.io/badge/platform-iOS-lightgrey.svg?style=flat)](https://maximelc.github.io/WeekdayPicker)
+[![Platform](https://img.shields.io/badge/platform-iOS-lightgrey.svg?style=flat)](https://github.com/xuechinahb/SalonWeekdayPicker)
 
 WeekdayPicker is a custom UIDatePicker with weekdays.
 
@@ -105,6 +105,9 @@ Add WeekdayPicker programmatically 🤓
 // Initialization
 let myPicker: WeekdayPicker = WeekdayPicker()
 
+// Set min Date
+myPicker.setMinDate(Date())
+
 // Add delegation conformance
 myPicker.delegated = self
 
@@ -114,7 +117,7 @@ myPicker.frame = CGRect(origin: CGPoint(x: 0, y: 150),
                                      height: 150))        
 
 // The first date to show will be the current date
-myPicker.setToDate(Date())
+myPicker.setToDate(Calendar.current.date(byAdding: .day, value: 7, to: Date())!)
 
 // Add picker to current view
 self.view.addSubview(myPicker)

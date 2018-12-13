@@ -85,14 +85,14 @@ extension HomeViewController {
         self.weekdayPicker?.delegated = self
         
         if let customPicker = self.weekdayPicker {
-            
+            customPicker.setMinDate(Calendar.current.date(byAdding: .day, value: 5, to: Date())!)
             // Apply frame
             customPicker.frame = CGRect(origin: CGPoint(x: 0, y: 150),
                                         size: CGSize(width: self.view.frame.size.width,
                                                      height: 150))
             
             // Set first date to show
-            customPicker.setToDate(Date())
+            customPicker.setToDate(Calendar.current.date(byAdding: .day, value: 10, to: Date())!)
             
             // Add picker to current view
             self.view.addSubview(customPicker)

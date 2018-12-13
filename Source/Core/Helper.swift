@@ -54,6 +54,10 @@ extension WeekdayPicker {
         updateDays()
     }
     
+    internal func setMinimumDate(date aDate: Date) {
+        self.minDate = aDate
+    }
+    
     /// Get number of day for month and year.
     internal func numberOfDay(month: Int, year: Int) -> Int {
         let dateComponents: DateComponents = DateComponents(year: year, month: month)

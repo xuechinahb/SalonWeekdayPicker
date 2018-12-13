@@ -18,6 +18,13 @@ extension WeekdayPicker: UIPickerViewDelegate {
             fireNotification(selectedComponent: componentIndex)
         }
         self.currentDate = createDateFromSelected()
+        if nil != self.minDate{
+            if Calendar.current.compare(self.currentDate!, to: self.minDate!, toGranularity: .day) == .orderedAscending {
+                self.setCustomDate(date: self.minDate!)
+                return
+            }
+        }
+        
         
         // Save weekday TMP
         if self.weekdayHistoryList.count > 1 {
