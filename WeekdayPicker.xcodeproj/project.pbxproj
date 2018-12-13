@@ -73,7 +73,6 @@
 		4EBD11472058BD9600A9D53D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EBD114C2058BD9600A9D53D /* DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EBD11502058BD9600A9D53D /* DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTests.swift; sourceTree = "<group>"; };
-		4EBD11522058BD9600A9D53D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EBD115C2058BF1800A9D53D /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		4EBD115E2058BF4500A9D53D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4EBD11632058C57500A9D53D /* Date+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Random.swift"; sourceTree = "<group>"; };
@@ -119,7 +118,6 @@
 		4E6A1EA02059817F006F6FAD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4EBD11522058BD9600A9D53D /* Info.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
