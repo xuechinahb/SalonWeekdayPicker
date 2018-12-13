@@ -115,13 +115,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4E6A1EA02059817F006F6FAD /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		4EBD10F82058B60100A9D53D = {
 			isa = PBXGroup;
 			children = (
@@ -213,7 +206,6 @@
 			isa = PBXGroup;
 			children = (
 				4EBD11502058BD9600A9D53D /* DemoTests.swift */,
-				4E6A1EA02059817F006F6FAD /* Supporting Files */,
 			);
 			path = DemoTests;
 			sourceTree = "<group>";
@@ -630,7 +622,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_EXPAND_BUILD_SETTINGS = NO;
+				INFOPLIST_EXPAND_BUILD_SETTINGS = YES;
 				INFOPLIST_FILE = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -656,7 +648,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_EXPAND_BUILD_SETTINGS = NO;
+				INFOPLIST_EXPAND_BUILD_SETTINGS = YES;
 				INFOPLIST_FILE = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
