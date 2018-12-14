@@ -46,7 +46,7 @@ extension WeekdayPicker {
     internal func yearList() -> [String] {
         if let currentYear = self.calendar.dateComponents([.year], from: Date()).year {
             var tmpList: [String] = [String]()
-            for current in currentYear...(currentYear + 10) {
+            for current in (currentYear - 10)...(currentYear + 10) {
                 tmpList.append(current.toString())
             }
             return tmpList
