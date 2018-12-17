@@ -6,13 +6,11 @@
 
 WeekdayPicker is a custom UIDatePicker with weekdays.
 
-<img src="https://raw.githubusercontent.com/Maximelc/WeekdayPicker/master/Assets/DemoExample.png" alt="Demo example" width="270" height="464">
+<img src="./snapshot/ScreenShot.png" alt="Demo example" >
 
 - [Requirements](#requirements)
-- [Communication](#communication)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Documentation](#documentation)
 - [License](#license)
 
 ## Requirements
@@ -20,13 +18,6 @@ WeekdayPicker is a custom UIDatePicker with weekdays.
 - iOS 9.0+
 - Xcode 9+
 - Swift 4.0+
-
-## Communication
-
-- If you'd like to **ask a general question**, use [Stack Overflow](http://stackoverflow.com/questions/tagged/WeekdayPicker).
-- If you **found a bug**, open an issue.
-- If you **have a feature request**, open an issue.
-- If you **want to contribute**, submit a pull request.
 
 ## Installation
 
@@ -44,7 +35,7 @@ platform :ios, '9.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-    pod 'WeekdayPicker', '~> 0.1'
+    pod 'SalonWeekdayPicker', '~> 0.4.0'
 end
 ```
 
@@ -56,26 +47,7 @@ $ pod install
 </details>
 
 <details>
-<summary>💉 Carthage — Carthage is a decentralized dependency manager for Cocoa.</summary>
-[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks.
 
-You can install Carthage with [Homebrew](http://brew.sh/) using the following command:
-
-```bash
-$ brew update
-$ brew install carthage
-```
-
-To integrate WeekdayPicker into your Xcode project using Carthage, specify it in your `Cartfile`:
-
-```ogdl
-github "WeekdayPicker/WeekdayPicker" ~> 4.7
-```
-
-Run `carthage update` to build the framework and drag the built `WeekdayPicker.framework` into your Xcode project.
-</details>
-
-<details>
 <summary>📚 Swift Package Manager — Package manager for the Swift.</summary>
 
 The [Swift Package Manager](https://swift.org/package-manager/) is a tool for automating the distribution of Swift code and is integrated into the `swift` compiler. It is in early development, but WeekdayPicker does support its use on supported platforms.
@@ -84,7 +56,7 @@ Once you have your Swift package set up, adding WeekdayPicker as a dependency is
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/Maximelc/WeekdayPicker.git", from: "1.0.0")
+    .package(url: "https://github.com/xuechinahb/SalonWeekdayPicker.git", from: "1.0.0")
 ]
 ```
 </details>
@@ -135,9 +107,6 @@ extension <#MyViewController#>: WeekdayPickerDelegate {
     }
 }
 ```
-
-### Documentation
-The full documentation is available [here](https://maximelc.github.io/WeekdayPicker).
 
 ### License
 
